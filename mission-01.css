@@ -1,11 +1,18 @@
-* {
+body {
   box-sizing: border-box;
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+.mission {
+  width: 600px;
+  height: 700px;
+  margin: 30px auto;
+}
+
 /* 핸드크림 */
 
-.handcream {
+.hand-cream,
+.bori-tea {
   width: 243px;
   height: 310px;
   flex-shrink: 0;
@@ -43,8 +50,6 @@
   text-align: center;
   font-size: 18px;
   color: #4E4E4E;
-  font-family: Noto Sans;
-  font-style: normal;
   font-weight: 700;
   line-height: 27px;
 }
@@ -85,7 +90,7 @@
   width: 112px;
   height: 42px;
   background-color: #0074E9;
-} */
+}*/
 
 /* 버튼2 완성본 */
 .button2 {
@@ -113,7 +118,8 @@
 }
 
 
-.gingertea {
+/* 꿀생강차 */
+.ginger-tea {
   width: 502px;
   height: 310px;
   flex-shrink: 0;
@@ -122,6 +128,7 @@
   background: white;
 
   position: relative;
+  margin: 0px 6px 0px 6px;
 }
 
 .gt-logo {
@@ -150,9 +157,7 @@
 .gt-font {
   color: #4E4E4E;
   text-align: center;
-  font-family: Noto Sans;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
 }
@@ -176,4 +181,58 @@
   top: 248px;
   bottom: 20px;
   margin: 0 20px;
+}
+
+/* 고소한 보리차 */
+.bt-logo {
+  width: 114px;
+  height: 42px;
+  background: #C4C4C4 50%;
+  background-color: transparent;
+  background-image: url(./images/logo2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 14px;
+  bottom: 254px;
+  margin: 0 65px;
+}
+
+.bt-title {
+  width: 200px;
+  height: 27px;
+  margin: 0;
+  position: absolute;
+  top: 66px;
+  bottom: 217px;
+  margin: 0 22px;
+}
+
+.bt-font {
+  text-align: center;
+  font-size: 18px;
+  color: #4E4E4E;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.bt-img {
+  width: 195px;
+  height: 196px;
+  background: #C4C4C4 50%;
+  background-image: url(./images/product2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  bottom: 14px;
+  margin: 0 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.item {
+  margin: 20px 7px;
 }
