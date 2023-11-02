@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 핸드크림 */
+
+.handcream {
+  width: 243px;
+  height: 310px;
+  flex-shrink: 0;
+
+  border: 1px solid #C4C4C4;
+  background: white;
+
+  position: relative;
+}
+
+.hc-logo {
+  width: 114px;
+  height: 42px;
+  background: #C4C4C4 50%;
+  background-color: transparent;
+  background-image: url(./images/logo.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 14px;
+  bottom: 254px;
+  margin: 0 65px;
+}
+
+.hc-title {
+  /* border: 1px solid black; */
+  width: 200px;
+  height: 27px;
+  position: absolute;
+  top: 66px;
+  bottom: 217px;
+  margin: 0 22px;
+}
+
+.hc-font {
+  text-align: center;
+  font-size: 18px;
+  color: #4E4E4E;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+
+.hc-img {
+  width: 195px;
+  height: 196px;
+  background: #C4C4C4 50%;
+  background-image: url(./images/product1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 100px;
+  bottom: 14px;
+  margin: 0 24px;
+}
+
+.button1 {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  position: absolute;
+  top: 248px;
+  bottom: 20px;
+  margin: 0 20px;
+}
+
+.bt-img1 {
+  width: 6px;
+  height: 10px;
+  /* background: #f3f3f3; */
+}
+
+/* 버튼1 호버 효과 */
+/* .button1:hover {
+  display: inline-flex;
+  width: 112px;
+  height: 42px;
+  background-color: #0074E9;
+} */
+
+/* 버튼2 완성본 */
+.button2 {
+  width: 112px;
+  height: 42px;
+  background-color: #0074E9;
+  border: none;
+  position: absolute;
+  top: 248px;
+  bottom: 20px;
+  margin: 0 20px;
+}
+
+.bt-label {
+  width: 52px;
+  height: 17px;
+  color: white;
+  align-items: center;
+}
+
+.bt-img2 {
+  width: 6px;
+  height: 10px;
+  margin-left: 16px;
+}
+
+
+.gingertea {
+  width: 502px;
+  height: 310px;
+  flex-shrink: 0;
+
+  border: 1px solid #C4C4C4;
+  background: white;
+
+  position: relative;
+}
+
+.gt-logo {
+  width: 112px;
+  height: 67px;
+  background: #C4C4C4 50%;
+  background-color: transparent;
+  background-image: url(./images/logo1.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 75px;
+  bottom: 168px;
+  margin: 0 73px 317px;
+}
+
+.gt-title {
+  margin: 0;
+  width: 200px;
+  height: 37px;
+  position: absolute;
+  top: 155px;
+  bottom: 118px;
+  margin: 0 274px 0 28px;
+}
+
+.gt-font {
+  color: #4E4E4E;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.gt-img {
+  width: 222px;
+  height: 270px;
+  background-color: #C4C4C4;
+  background: url(./images/product.png);
+  position: absolute;
+  margin: 20px 28px 20px 252px;
+}
+
+.button-gt {
+  width: 42px;
+  height: 42px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  position: absolute;
+  top: 248px;
+  bottom: 20px;
+  margin: 0 20px;
+}
