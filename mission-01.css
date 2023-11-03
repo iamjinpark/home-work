@@ -17,7 +17,7 @@ body {
   height: 310px;
   flex-shrink: 0;
 
-  border: 1px solid #C4C4C4;
+  border: 2px solid #C4C4C4;
   background: white;
 
   position: relative;
@@ -67,6 +67,12 @@ body {
   margin: 0 24px;
 }
 
+.bt-img {
+  width: 6px;
+  height: 10px;
+  /* background: #f3f3f3; */
+}
+
 .button1 {
   width: 42px;
   height: 42px;
@@ -78,22 +84,27 @@ body {
   margin: 0 20px;
 }
 
-.bt-img1 {
-  width: 6px;
-  height: 10px;
-  /* background: #f3f3f3; */
+.button1:hover {
+  width: 112px;
+  background-color: #0074E9;
+  border: none;
 }
 
-/* 버튼1 호버 효과 */
-/* .button1:hover {
-  display: inline-flex;
-  width: 112px;
-  height: 42px;
-  background-color: #0074E9;
-}*/
+.button1:hover:before {
+  content: '구매하기';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: white;
+}
+
+.bt-img1 {
+  margin-left: 4px;
+}
 
 /* 버튼2 완성본 */
 .button2 {
+  display: block;
   width: 112px;
   height: 42px;
   background-color: #0074E9;
@@ -111,12 +122,6 @@ body {
   align-items: center;
 }
 
-.bt-img2 {
-  width: 6px;
-  height: 10px;
-  margin-left: 16px;
-}
-
 
 /* 꿀생강차 */
 .ginger-tea {
@@ -124,7 +129,7 @@ body {
   height: 310px;
   flex-shrink: 0;
 
-  border: 1px solid #C4C4C4;
+  border: 2px solid #C4C4C4;
   background: white;
 
   position: relative;
