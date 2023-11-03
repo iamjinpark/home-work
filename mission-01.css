@@ -54,7 +54,6 @@ body {
   line-height: 27px;
 }
 
-
 .hc-img {
   width: 195px;
   height: 196px;
@@ -66,6 +65,8 @@ body {
   bottom: 14px;
   margin: 0 24px;
 }
+
+/* 버튼 */
 
 .bt-img {
   width: 6px;
@@ -102,28 +103,9 @@ body {
   margin-left: 4px;
 }
 
-/* 버튼2 완성본 */
-.button2 {
-  display: block;
-  width: 112px;
-  height: 42px;
-  background-color: #0074E9;
-  border: none;
-  position: absolute;
-  top: 248px;
-  bottom: 20px;
-  margin: 0 20px;
-}
-
-.bt-label {
-  width: 52px;
-  height: 17px;
-  color: white;
-  align-items: center;
-}
-
 
 /* 꿀생강차 */
+
 .ginger-tea {
   width: 502px;
   height: 310px;
@@ -176,7 +158,7 @@ body {
   margin: 20px 28px 20px 252px;
 }
 
-.button-gt {
+/* .button-gt {
   width: 42px;
   height: 42px;
   border: 1px solid black;
@@ -186,9 +168,10 @@ body {
   top: 248px;
   bottom: 20px;
   margin: 0 20px;
-}
+} */
 
 /* 고소한 보리차 */
+
 .bt-logo {
   width: 114px;
   height: 42px;
@@ -231,6 +214,8 @@ body {
   bottom: 14px;
   margin: 0 24px;
 }
+
+/* 플렉스로 최종본 완성 */
 
 .container {
   display: flex;
