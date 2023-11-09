@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./mission-02.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <!--타이틀 -->
+    <header class="header">
+      <h2 class="title">로그인</h2>
+      <p class="sub-title-en">Welcome, Ediya Coffee</p>
+      <p class="sub-title-ko">이디야커피에 오신 것을 환영합니다.</p>
+    </header>
+
+
+    <form action="/" class="login">
+      <!-- 이메일 -->
+      <div class="email">
+        <label class="email-label " for="email" id="user-email">이메일</label>
+        <input type="email" placeholder="yamoo9@euid.dev" required />
+      </div>
+      <!-- 패스워드 -->
+      <div class="password">
+        <label class="password-label" for="password" id="user-password">패스워드</label>
+        <input type="password" placeholder="" required />
+      </div>
+      <!-- 아이디 저장 -->
+      <div class="checkbox">
+        <input type="checkbox" id="remember">
+        <label for="remember">이메일 저장</label>
+      </div>
+
+      <!-- 버튼 -->
+      <div class="button">
+        <a href="/" class="button-login">로그인<img src="./images/outline.svg" alt="" /></a>
+        <!-- <input class="submit-button" type="submit" value="로그인" /> -->
+        <a href="/" class="button-sign-in">회원가입<img src="./images/outline.svg" alt="" /></a>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
