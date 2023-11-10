@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>로그인 - 이디야 커피</title>
+  <title>로그인 - 이디야</title>
   <link rel="stylesheet" href="./reset.css" />
-  <link rel="stylesheet" href="./mission-02.css" />
+  <link rel="stylesheet" href="./draft.css" />
 </head>
 
 <body>
-
   <div class="wrap">
     <!--타이틀 -->
     <header class="header">
@@ -27,13 +26,24 @@
             <label class="email-label" for="email" id="user-email">이메일</label>
             <input type="email" placeholder="yamoo9@euid.dev" required />
           </li>
+          <li class="email-error">이메일을 입력해주세요.</li>
           <li class="password">
             <label class="password-label" for="password" id="user-password">패스워드</label>
             <input type="password" placeholder="" required />
             <span class="password-show-hide"></span>
           </li>
+          <li class="password-error">비밀번호를 입력해주세요.</li>
         </ul>
       </div>
+
+      <!-- <div class="email">
+        <label class="email-label " for="email" id="user-email">이메일</label>
+        <input type="email" placeholder="yamoo9@euid.dev" required />
+      </div>
+      <div class="password">
+        <label class="password-label" for="password" id="user-password">패스워드</label>
+        <input type="password" placeholder="" required />
+      </div> -->
 
       <!-- 아이디 저장 -->
       <div class="checkbox">
@@ -44,12 +54,12 @@
       <!-- 버튼 -->
       <div class="button">
         <button class="button-login" type="submit">로그인<img src="./images/outline.svg" alt="" /></button>
+        <!-- <a href="/" class="button-login">로그인<img src="./images/outline.svg" alt="" /></a> -->
+        <!-- <input class="submit-button" type="submit" value="로그인" /> -->
         <a href="/" class="button-sign-in">회원가입<img src="./images/outline.svg" alt="" /></a>
       </div>
     </form>
   </div>
-
-
 
 </body>
 
