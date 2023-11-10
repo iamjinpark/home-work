@@ -61,7 +61,7 @@ body {
 /* 로그인 폼 */
 label,
 input {
-  display: block;
+  /* display: block; */
   color: var(--font-color);
 }
 
@@ -79,6 +79,11 @@ input {
   margin-top: 30px;
 }
 
+.email,
+.password {
+  position: relative;
+}
+
 .email input,
 .password input {
   width: 540px;
@@ -89,6 +94,7 @@ input {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.32px;
+
 }
 
 .email input:focus,
@@ -101,10 +107,25 @@ input {
 
 .email-label,
 .password-label {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.26px;
+  position: absolute;
+  left: 0px;
+  padding: 10px;
+  pointer-events: none;
+  transition: 0.5s;
 }
+
+.email input:valid~label,
+.email input:focus~label,
+.password input:valid~label,
+.password input:focus~label {
+  transform: translateX(10px);
+  transform: translateY(-25px);
+  font-size: 13px;
+}
+
 
 /* 아이디 저장 */
 .checkbox {
