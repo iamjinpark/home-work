@@ -105,3 +105,24 @@ input {
   font-weight: 400;
   letter-spacing: -0.26px;
 }
+
+/* 아이디 저장 */
+.checkbox {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 14px;
+  margin-right: 470px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  position: relative;
+}
+
+.checkbox input {
+  margin: 0px
+}
+
+.checkbox label {
+  margin-left: 4px;
+}
