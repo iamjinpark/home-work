@@ -121,7 +121,7 @@ input {
 .password input:valid~label,
 .password input:focus~label {
   transform: translateX(10px);
-  transform: translateY(-25px);
+  transform: translateY(-15px);
   font-size: 13px;
 }
 
@@ -198,6 +198,7 @@ input {
   line-height: 48px;
   letter-spacing: -0.4px;
 }
+
 
 .button img {
   position: absolute;
