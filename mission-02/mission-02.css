@@ -113,7 +113,6 @@ input {
   position: absolute;
   left: 0px;
   padding: 10px;
-  pointer-events: none;
   transition: 0.5s;
 }
 
@@ -129,24 +128,49 @@ input {
 
 /* 아이디 저장 */
 .checkbox {
-  display: flex;
+  /* display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; */
   margin-top: 14px;
-  margin-right: 470px;
+  margin-right: 460px;
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.24px;
-  position: relative;
+  display: flow-root;
 }
 
 .checkbox input {
-  margin: 0px
+  margin: 0px;
+  display: none;
 }
 
 .checkbox label {
   margin-left: 4px;
+  float: right;
 }
+
+.checkbox label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/un-check.svg);
+  float: left;
+  margin-right: 4px;
+}
+
+.checkbox input:checked+label::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/checked.png);
+  float: left;
+  margin-right: 4px;
+}
+
 
 /* 버튼 */
 .button {
@@ -207,4 +231,23 @@ input {
   position: absolute;
   top: 14px;
   margin-left: 60px;
+}
+
+
+
+/* 반응형 웹 */
+@media screen and (max-width:600px) {
+
+  .login {
+    width: 311px;
+    height: 100vh;
+  }
+
+  .button {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 311px;
+    height: 48px;
+  }
+
 }
