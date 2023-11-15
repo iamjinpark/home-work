@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>로그인 - 이디야 커피</title>
   <link rel="stylesheet" href="./reset.css" />
-  <link rel="stylesheet" href="./mission-02.css" />
+  <link rel="stylesheet" href="./mission-02-edit.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     </header>
 
 
-    <form action="/" class="login" method="get">
+    <form action="/" class="login" method="get" class="login-wrapper">
       <div class="login">
         <ul>
           <li class="email">
@@ -32,17 +32,17 @@
           </li>
           <li class="password">
             <input type="password" id="user-password" required minlength="6" />
-            <label class="password-label" for="user-password">패스워드
-
-            </label>
+            <label class="password-label" for="user-password">패스워드</label>
           </li>
         </ul>
       </div>
 
       <!-- 아이디 저장 -->
-      <div class="checkbox">
-        <input type="checkbox" id="remember">
-        <label for="remember">이메일 저장</label>
+      <div class="save-email">
+        <input class="form-checkbox" type="checkbox" id="userEmailSave">
+        <label class="form-checkbox-label" for="userEmailSave">이메일 저장
+          <span class="custom-checkbox"></span>
+        </label>
       </div>
 
       <!-- 버튼 -->
