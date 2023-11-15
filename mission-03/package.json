@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "hw": "live-server --open=mission-03/ --port=3000 --host=localhost --mount=/:mission-03/"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

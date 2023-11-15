@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>컴포넌트-인풋</title>
-  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="index.css" />
 
 </head>
 
@@ -13,6 +13,7 @@
 
   <div class="container">
 
+    <!-- 언어 선택 : top -->
     <div class="language-top">
       <label for="language-select">
         <select name="language" id="language-select">
@@ -20,13 +21,13 @@
           <option value="English">English</option>
         </select>
         <div class="language-top-img">
-          <img src="./../../image/global.svg" alt="" />
-          <img src="./../../image/down-fill.png" alt="더보기" />
+          <img src="/image/global.svg" alt="" />
+          <img src="/image/down-fill.png" alt="더보기" />
         </div>
       </label>
     </div>
 
-
+    <!-- 언어 선택 : bottom -->
     <div class="language-down">
       <label for="language-select">
         <select name="language" id="language-select">
@@ -35,10 +36,33 @@
         </select>
       </label>
       <div class="language-top-img">
-        <img src="./../../image/global.svg" alt="" />
-        <img src="./../../image/down-fill.png" alt="더보기" />
+        <img src="/image/global.svg" alt="" />
+        <img src="/image/down-fill.png" alt="더보기" />
       </div>
     </div>
+
+    <!-- 로그인 -->
+
+    <div class="login">
+      <a class="login-button" href="/">로그인</a>
+    </div>
+
+    <!-- 이메일 박스 -->
+    <div class="emailbox-wrapper">
+      <div class="emailbox">
+        <input type="email" id="signInEmail" placeholder="이메일 주소" required />
+        <label for="signInEmail"> </label>
+      </div>
+
+      <button class="emailbox-button" type="submit">
+        <a class="emailbox-button-link" href="/">30일 무료 이용</a>
+        <img src="/image/Arrow (Stroke).svg" alt="/" />
+      </button>
+    </div>
+
+
+
+
 
 
   </div>

@@ -12,8 +12,16 @@ body {
   flex-flow: column nowrap;
   row-gap: 1.5rem;
   padding: 1em;
+  background-color: black;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  text-align: ceter;
+}
+
+/* 언어 선택 박스 */
 .language-top,
 .language-down {
   position: relative;
@@ -77,6 +85,79 @@ body {
   left: 10px;
 }
 
+
+/* 로그인 박스 */
+
+.login-button {
+  height: 60px;
+  height: 30px;
+  padding: 6px 13px;
+  border-radius: 4px;
+  background: #E50914;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/* 이메일 박스 */
+
+.emailbox input {
+  width: 14.64em;
+  height: 1.43em;
+  padding: 0.71em 1.43em;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.emailbox-button {
+  width: 11.43em;
+  height: 2.86em;
+  background-color: #E50914;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  /* position: relative; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.emailbox-button-link {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.007px;
+  white-space: nowrap;
+  /* position: absolute;
+  top: 10px;
+  left: 17px; */
+}
+
+.emailbox-button img {
+  width: 22px;
+  height: 15px;
+  /* position: absolute;
+  top: 12px;
+  right: 15px; */
+}
+
+.emailbox-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+
+
+/* 반응형 - 데스크탑 */
+
 @media (min-width:768px) {
   .language-top select {
     height: 40px;
@@ -85,4 +166,45 @@ body {
   .language-top-img {
     top: 12px;
   }
-}
+
+  .login-button {
+    height: 70px;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+
+  .emailbox input {
+    width: 500px;
+    height: 22px;
+    padding: 1.13em 1.25em;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 0;
+  }
+
+  .emailbox-button {
+    width: 210px;
+    height: 60px;
+    padding: 15px 20px;
+    border-radius: 0;
+    display: flex;
+    flex
+  }
+
+  .emailbox-button-link {
+    font-size: 22px;
+    line-height: 120%;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  .emailbox-wrapper {
+    background-color: yellow;
+    width: 750px;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    gap: 0;
+  }
