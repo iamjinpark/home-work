@@ -18,7 +18,7 @@ body {
 a {
   text-decoration: none;
   color: white;
-  text-align: ceter;
+  text-align: center;
 }
 
 /* 언어 선택 박스 */
@@ -89,8 +89,9 @@ a {
 /* 로그인 박스 */
 
 .login-button {
-  height: 60px;
-  height: 30px;
+  display: block;
+  width: 34px;
+  height: 18px;
   padding: 6px 13px;
   border-radius: 4px;
   background: #E50914;
@@ -168,10 +169,11 @@ a {
   }
 
   .login-button {
-    height: 70px;
-    height: 40px;
-    padding: 6px 12px;
+    width: 45px;
+    height: 24px;
+    padding: 8px 13px;
     font-size: 16px;
+
   }
 
   .emailbox input {
