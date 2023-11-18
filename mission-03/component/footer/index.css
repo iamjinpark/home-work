@@ -5,8 +5,9 @@ body {
 }
 
 .footer {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
+  padding: 40px 25px;
   background: black;
   color: #ACACAC;
   font-family: SpoqaHanSans;
@@ -15,22 +16,21 @@ body {
 .footer-wrapper {
   /* background: yellow; */
   width: clamp(375px, 85%, 767px);
-  padding: 40px 25px;
-  border-top: 4px solid #2F2F2F;
+  width: 100%;
 }
 
-.question a,
+
+a,
 .guide-ul li {
   text-decoration: none;
   color: #ACACAC;
   list-style-type: none;
   display: block;
+  text-align: left;
 }
 
 
 .question {
-  display: flex;
-  flex-direction: column;
   color: #C8C8C8;
   font-size: 20px;
   font-weight: 700;
@@ -45,7 +45,7 @@ body {
 }
 
 .guide-ul {
-  min-width: 325px;
+  min-width: 375px;
   display: flex;
   flex-flow: row wrap;
   padding: 0;
@@ -101,16 +101,16 @@ body {
 
 
 .address {
-  min-width: 325px;
   font-style: normal;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 
 .address span {
-  word-break: break-all;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 150%;
   /* 21px */
@@ -129,15 +129,15 @@ body {
 /* 미디어 쿼리 */
 @media (min-width:768px) {
   .footer {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     display: flex;
     flex-flow: column;
   }
 
   .footer-wrapper {
     /* background: pink; */
-    width: clamp(768px, 60%, 1280px);
+    width: clamp(768px, 80%, 1280px);
     margin: 0 auto;
   }
 
