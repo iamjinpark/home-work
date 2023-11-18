@@ -6,7 +6,7 @@ body {
 
 .header {
   padding: 20px 25px;
-  background: var(--gradients-100, linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.7) 100%)), url(./image/background\ \(1\).png);
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.7) 100%), url(./image/background\ \(1\).png);
 }
 
 .header-container {
@@ -100,7 +100,6 @@ body {
 
   .header {
     padding: 2.5em 12.5em;
-    background: none;
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.00) 0%, #000 70%);
   }
 
